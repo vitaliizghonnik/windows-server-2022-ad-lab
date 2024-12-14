@@ -1,0 +1,31 @@
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Virtualization
+*.iso
+*.vhd*
+*.ova
+*.ovf
+
+# IDE configuration
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore compiled or session files
+*.ps1xml
+*.pssc
+
+# Environment or credentials
+.env
+*.key
+*.cert
+credentials.json
