@@ -1,20 +1,39 @@
-<h1>Windows Server and Active Directory Home Lab on VMware</h1>
+<h1>Windows Server and Active Directory Lab</h1>
 
-<h2>Description</h2>
-A hands-on IT lab designed to simulate real-world IT support and help desk scenarios using Windows Server and Active Directory. This project includes a setup for user account management, group policy configuration, network services (DHCP/DNS), and PowerShell automation.
+<h2>Project Overview</h2>
+This repository documents a hands-on IT support lab environment that simulates real-world Windows Server administration and help desk scenarios. This project focuses on core support skills, including Active Directory management, Group Policy configuration, network services (DHCP/DNS), and PowerShell automation.
 
-<h2>Prerequisites</h2>
+<h2>Lab Environment</h2>
 
-1. VMware Workstation 17 Pro
-2. Windows Server 2022 ISO
-3. Windows 10/11 ISO
-4. PowerShell (pre-installed on Windows)
+* Virtualization Platform: VMware Workstation 17 Pro
+* Domain Controller: Windows Server 2022
+* Client Machines: Windows 10/11
+* Domain: ad.domain.com
+* Automation tool: PowerShell (pre-installed on Windows)
 
-✅ Pre-configuration Steps for Active Directory Installation:
+<h2>Project Goals</h2>
 
-1. Rename a computer, e.g., Server2022
-2. Set a Static IP Address (IPv4) for Server2022: 172.16.0.10   
-3. Set the Time and Time Zone
-4. Install the Active Directory Domain Services (AD DS) role.
-5. Configure DNS Settings to 172.16.0.10 or 127.0.0.1
-6. Update the System
+- Develop practical Windows Server administration skills
+- Create documentation for common IT support tasks
+- Implement and troubleshoot Active Directory services
+- Build a portfolio of IT support documentation and scripts
+- Practice realistic help desk scenarios in a controlled environment
+
+<h2>Project Goals</h2>
+
+1. __Setup__: Initial infrastructure setup documentation
+2. __User-Management__: User and group administration
+3. __Group-Policy__: GPO implementation and management
+4. __File-Sharing__: File server configuration and permissions
+5. __Common-Tasks__: Documentation for routine support activities
+6. __PowerShell-Scripts__: Automation scripts for administrative tasks
+
+<h2>Getting Started</h2>
+
+1. Follow the server installation guide in the 1-Setup directory
+2. Configure domain controller services using the domain setup documentation
+3. Set up client machines following the client setup guide
+4. Begin implementing Active Directory users and policies
+
+<h2>Project Status</h2>
+🚧 In Progress 🚧
