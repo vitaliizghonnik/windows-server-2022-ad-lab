@@ -8,8 +8,8 @@
 ## Steps for setting up Domain Controller
 
 1. Install Active Directory Domain Services Role by clicking Manage and choosing "Add Roles and Features".
-2. Promote Server to Domain Controller by adding a new forest. Enter root domain, e.g.: `ad.domain.com`. 
-    > I decided to add `ad` syntax to the root domain to separate it as a local server.
+2. Promote the server to a Domain Controller by creating a new forest. Enter a root domain, e.g., `ad.domain.com`. 
+    > I chose to add the ad prefix to the root domain to indicate that it's a local server environment.
 3. Verify installation via opening Administrative Tools by confirming the presence of Active Directory Users and Computers.
 4. Enable Recycle Bin by entering the Tool menu and visiting Active Directory Administrative Center. In the local server settings, enable the Recycle Bin.
 ![alt text](image.png) 
