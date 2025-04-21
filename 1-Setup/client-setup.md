@@ -1,16 +1,17 @@
 # Structure of Workstations of the Lab:
-## 🧑‍💼 Admin Workstation:
+### 🧑‍💼 Admin Workstation:
 
-1. ADM-WIN11-01 – Your main administrative machine
-2. HD-ADMIN-01 – Help Desk admin system
+1. [ADM-WIN11-01](https://github.com/vitaliizghonnik/windows-server-2022-ad-lab/blob/main/1-Setup/client-setup.md#windows-11-enterprise-administrative-machine-setup) – Main administrative machine with Windows 11 Enterprise OS
+2. [HD-ADMIN-01](https://github.com/vitaliizghonnik/windows-server-2022-ad-lab/blob/main/1-Setup/client-setup.md#windows-10-pro-client-setup-with-administrative-privilege) – Help Desk administrative machine with Windows 10 Pro OS  
 
-## 💻 Client Machines:
+### 💻 Client Machines:
 
-1. CL-WIN10-01 – Client running Windows 10
+1. CL-WIN10-01 – Client running Windows 10 Enterprise
 2. CL-WIN11-01 – Client running Windows 11
 3. CL-UBU-01 – Ubuntu client
 
-# Windows 11 Enterprise Administrative Machine Setup  
+# Setting up Administrative Workstation:
+## 1. Windows 11 Enterprise Administrative Machine Setup  
 
 ## Prerequisites
 
@@ -27,7 +28,7 @@
 2. Rename the Windows PC in System > About > Rename PC to e.g. ADM-WIN11-01
 3. Take a snapshot of a fresh installation.
 
-# Windows 10 Pro Client Setup with Administrative Privilege
+# 2. Windows 10 Pro Client Setup with Administrative Privilege
 
 ## Prerequisites
 
