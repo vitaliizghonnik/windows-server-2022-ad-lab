@@ -1,10 +1,10 @@
 # Structure of Workstations of the Lab:
-### 🧑‍💼 Admin Workstation:
+## 🧑‍💼 Admin Workstation:
 
-1. [ADM-WIN11-01](https://github.com/vitaliizghonnik/windows-server-2022-ad-lab/blob/main/1-Setup/client-setup.md#windows-11-enterprise-administrative-machine-setup) – Main administrative machine with Windows 11 Enterprise OS
-2. [HD-ADMIN-01](https://github.com/vitaliizghonnik/windows-server-2022-ad-lab/blob/main/1-Setup/client-setup.md#windows-10-pro-client-setup-with-administrative-privilege) – Help Desk administrative machine with Windows 10 Pro OS  
+1. [ADM-WIN11-01](https://github.com/vitaliizghonnik/windows-server-2022-ad-lab/blob/main/1-Setup/client-setup.md#1-windows-11-enterprise-administrative-machine-setup) – Main administrative machine with Windows 11 Enterprise OS
+2. [HD-ADMIN-01](https://github.com/vitaliizghonnik/windows-server-2022-ad-lab/blob/main/1-Setup/client-setup.md#2-windows-10-pro-client-setup-with-administrative-privilege) – Help Desk administrative machine with Windows 10 Pro OS  
 
-### 💻 Client Machines:
+## 💻 Client Machines:
 
 1. CL-WIN10-01 – Client running Windows 10 Enterprise
 2. CL-WIN11-01 – Client running Windows 11
@@ -13,7 +13,7 @@
 # Setting up Administrative Workstation:
 ## 1. Windows 11 Enterprise Administrative Machine Setup  
 
-## Prerequisites
+### Prerequisites
 
 - VMware Workstation 17
 - Windows 11 ISO file.
@@ -22,15 +22,15 @@
 - Allocated system resources: 6 CPU cores, 7.0 GB RAM, 80 GB disk space, Network adapter - NAT.
   ![Resources for Windows 11 Enterprise](https://github.com/user-attachments/assets/0d53951d-cd73-4d2d-8da6-001594f2bd3a)
 
-## Steps of configuration:
+### Steps of configuration:
 
 1. Install VMware Tools in Start > Click the Run button and then enter D:\setup.exe. Afterward, restart the machine.
 2. Rename the Windows PC in System > About > Rename PC to e.g. ADM-WIN11-01
 3. Take a snapshot of a fresh installation.
 
-# 2. Windows 10 Pro Client Setup with Administrative Privilege
+## 2. Windows 10 Pro Client Setup with Administrative Privilege
 
-## Prerequisites
+### Prerequisites
 
 - VMware Workstation 17
 - Windows 10 ISO file
@@ -40,7 +40,7 @@
   
   ![image](https://github.com/user-attachments/assets/2bce89a8-c964-4760-b749-bcc69a08779e)
   
-## Steps of configuration:
+### Steps of configuration:
 
 1. Perform Windows Updates and check the enabling of Windows Security features.
 2. Rename the Windows PC in System > About > Rename PC to  e.g. HD-ADMIN-01.
