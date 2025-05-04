@@ -19,9 +19,9 @@ This repository documents a hands-on IT support lab environment that simulates r
 - Build a portfolio of IT support documentation and scripts
 - Practice realistic help desk scenarios in a controlled environment
 
-<h2>Project Goals</h2>
+<h2>Project Structure</h2>
 
-1. __Setup__: Initial infrastructure setup documentation
+1. __[Setup](https://github.com/vitaliizghonnik/windows-server-2022-ad-lab/tree/main/1-Setup)__: Initial infrastructure setup documentation
 2. __User-Management__: User and group administration
 3. __Group-Policy__: GPO implementation and management
 4. __File-Sharing__: File server configuration and permissions
