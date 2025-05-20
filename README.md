@@ -1,4 +1,4 @@
-<h1>Windows Server and Active Directory Lab</h1>
+<h1>Windows Server and Active Directory Deployment on VMware</h1>
 
 <h2>Project Overview</h2>
 This repository documents a hands-on IT support lab environment that simulates real-world Windows Server administration and help desk scenarios. This project focuses on core support skills, including Active Directory management, Group Policy configuration, network services (DHCP/DNS), and PowerShell automation.
@@ -7,7 +7,7 @@ This repository documents a hands-on IT support lab environment that simulates r
 
 * Virtualization Platform: VMware Workstation 17 Pro
 * Domain Controller: Windows Server 2022
-* Client Machines: Windows 10/11
+* Client Machines: Windows 10 Pro, Enterprise / 11 Enterprise / Linux Ubuntu
 * Domain: ad.domain.com
 * Automation tool: PowerShell (pre-installed on Windows)
 
